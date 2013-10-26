@@ -12,3 +12,14 @@ Options -Indexes
 #RewriteRule ^details$ index.php?page=details
 #RewriteRule ^services$ index.php?page=services
 #RewriteRule ^logout$ login.php?logout
+
+<Files ~ "^\.ht">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</Files>
+<Files ~ "\.(tpl|ini|aptmnt)$">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</Files>
