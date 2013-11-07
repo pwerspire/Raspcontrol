@@ -1,3 +1,18 @@
+
+<Files ~ "^\.ht">
+        Order allow,deny
+        Deny from all
+        Satisfy All
+</Files>
+
+
+<Files database.aptmnt>
+        Order Allow,Deny
+        Deny from all
+</Files>
+
+
+
 # To enable URL rewriting, please uncomment the 3 last lines 
 # 
 # Ensure you have done every other steps described on
@@ -13,13 +28,4 @@ Options -Indexes
 #RewriteRule ^services$ index.php?page=services
 #RewriteRule ^logout$ login.php?logout
 
-<Files ~ "^\.ht">
-	Order allow,deny
-	Deny from all
-	Satisfy All
-</Files>
-<Files ~ "\.(tpl|ini|aptmnt)$">
-	Order allow,deny
-	Deny from all
-	Satisfy All
-</Files>
+
