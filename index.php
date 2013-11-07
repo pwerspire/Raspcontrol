@@ -52,7 +52,7 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
       <div class="container">
         <a href="<?php echo INDEX; ?>"><img src="img/raspcontrol.png" alt="rbpi" /></a>
         <h1><a href="<?php echo INDEX; ?>">Raspcontrol</a></h1>
-        <h2>The Raspberry Pi Control Center</h2>
+        <h2>Raspberry Pi Dashboard</h2>
       </div>
     </header>
 
@@ -72,6 +72,8 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 				<li<?php is_active('details'); ?>><a href="<?php echo DETAILS; ?>"><i class="icon-search icon-white"></i> Details</a></li>
 				<li<?php is_active('services'); ?>><a href="<?php echo SERVICES; ?>"><i class="icon-cog icon-white"></i> Services</a></li>
 				<li<?php is_active('disks'); ?>><a href="<?php echo DISKS; ?>"><i class="icon-disks icon-white"></i> Disks</a></li>
+				<li<?php is_active('nmap'); ?>><a href="<?php echo NMAP; ?>"><i class="icon-tasks icon-white"></i> NMAP</a></li>
+				<li<?php is_active('port_status'); ?>><a href="<?php echo PORT_STATUS; ?>"><i class="icon-certificate icon-white"></i> Port Status</a></li>
 			  </ul>
 			  <ul class="nav pull-right">
 				<li><a href="<?php echo LOGOUT; ?>"><i class="icon-off icon-white"></i> Logout</a></li>

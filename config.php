@@ -28,6 +28,8 @@ else {
   define('DETAILS', './?page=details');
   define('SERVICES', './?page=services');
   define('DISKS', './?page=disks');
+  define('NMAP', './?page=nmap');
+  define('PORT_STATUS', './?page=port_status');
 }
 
 ?>
