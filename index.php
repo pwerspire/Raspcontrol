@@ -35,10 +35,11 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
     <meta charset="UTF-8">
     <title>Raspcontrol</title>
     <meta name="author" content="Nicolas Devenet" />
+    <meta name="author" content="Jose Antonio Jamilena Daza" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <link rel="icon" type="image/png" href="img/favicon.ico" />
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
@@ -99,12 +100,12 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 
     <footer>
       <div class="container">
-        <p>Powered by <a href="https://github.com/Bioshox/Raspcontrol">Raspcontrol</a>.</p>
-        <p>Sources are available on <a href="https://github.com/Bioshox/Raspcontrol">Github</a>.</p>
+        <p>Powered by <a href="https://github.com/josejamilena/Raspcontrol">Raspcontrol</a>.</p>
+        <p>Sources are available on <a href="https://github.com/josejamilena/Raspcontrol">Github</a>.</p>
       </div>
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<?php
 		// load specific scripts
