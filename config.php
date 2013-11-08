@@ -17,21 +17,13 @@ define('LOGIN', 'login.php');
 //define('FILE_PASS', '/etc/raspcontrol/database.aptmnt');
 define('FILE_PASS', '/opt/raspcontrol/database.aptmnt');
 
-if ($rewriting) {
-  define('LOGOUT', './logout');
-  define('DETAILS', './details');
-  define('SERVICES', './services');
-  define('DISKS', './disks');
-}
-else {
-  define('LOGOUT', './login.php?logout');
-  define('DETAILS', './?page=details');
-  define('SERVICES', './?page=services');
-  define('DISKS', './?page=disks');
-  define('NMAP', './?page=nmap');
-  define('PORT_STATUS', './?page=port_status');
-  define('TORRENT', './?page=transmission');
-  define('CAMERA', './?page=camera');
-}
+define('LOGOUT', './login.php?logout');
+define('DETAILS', './?page=details');
+define('SERVICES', './?page=services');
+define('DISKS', './?page=disks');
+define('NMAP', './?page=nmap');
+define('PORT_STATUS', './?page=port_status');
+define('TORRENT', './?page=transmission');
+define('CAMERA', './?page=camera');
 
 ?>

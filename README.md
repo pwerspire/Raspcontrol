@@ -15,7 +15,7 @@ For the moment, you need a web server (like Apache) installed on your Raspberry 
 
 If you are in a hurry, just clone the repository with:
 
-	git clone https://github.com/Bioshox/Raspcontrol.git raspcontrol
+	git clone https://github.com/josejamilena/Raspcontrol.git raspcontrol
 
 And create the json authentifation file `/etc/raspcontrol/database.aptmnt` with 740 rights and owned by www-data:
 
@@ -23,11 +23,4 @@ And create the json authentifation file `/etc/raspcontrol/database.aptmnt` with 
  	   "user":       "yourName",
  	   "password":   "yourPassword"
 	}
-
-## Optional configuration
-
-In order to have some beautiful URLs, you can enable URL Rewriting.  
-Please follow instructions described on the wiki page [Enable URL Rewriting](https://github.com/Bioshox/Raspcontrol/wiki/Enable-URL-Rewriting).
-
-__Note:__ It's not necessary to enable URL Rewriting to use Raspcontrol.
 
