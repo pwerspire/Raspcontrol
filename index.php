@@ -75,7 +75,7 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 				<li<?php is_active('nmap'); ?>><a href="<?php echo NMAP; ?>"><i class="icon-tasks icon-white"></i> NMAP</a></li>
 				<li<?php is_active('port_status'); ?>><a href="<?php echo PORT_STATUS; ?>"><i class="icon-certificate icon-white"></i> Port Status</a></li>
 				<li<?php is_active('torrent'); ?>><a href="<?php echo TORRENT; ?>"><i class="icon-arrow-down icon-white"></i>Torrent</a></li>
-
+				<li<?php is_active('camera'); ?>><a href="<?php echo CAMERA; ?>"><i class="icon-camera icon-white"></i>Torrent</a></li>
 			  </ul>
 			  <ul class="nav pull-right">
 				<li><a href="<?php echo LOGOUT; ?>"><i class="icon-off icon-white"></i> Logout</a></li>

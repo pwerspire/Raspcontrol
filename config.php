@@ -31,6 +31,7 @@ else {
   define('NMAP', './?page=nmap');
   define('PORT_STATUS', './?page=port_status');
   define('TORRENT', './?page=transmission');
+  define('CAMERA', './?page=camera');
 }
 
 ?>
