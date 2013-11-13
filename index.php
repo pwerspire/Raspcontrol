@@ -33,7 +33,7 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Raspcontrol</title>
+    <title><?php echo strtoupper(gethostname()); ?></title>
     <meta name="author" content="Nicolas Devenet" />
     <meta name="author" content="Jose Antonio Jamilena Daza" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
@@ -51,8 +51,8 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
     <header>
       <div class="container">
         <a href="<?php echo INDEX; ?>"><img src="img/raspcontrol.png" alt="rbpi" /></a>
-        <h1><a href="<?php echo INDEX; ?>">Raspcontrol</a></h1>
-        <h2>Raspberry Pi Dashboard</h2>
+        <h1><a href="<?php echo INDEX; ?>">&nbsp;<?php echo strtoupper(gethostname()); ?></a></h1>
+        <h2>&nbsp;&nbsp;&nbsp;<?php echo php_uname(); ?></h2>
       </div>
     </header>
 
@@ -74,8 +74,8 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 				<li<?php is_active('disks'); ?>><a href="<?php echo DISKS; ?>"><i class="icon-disks icon-white"></i> Disks</a></li>
 				<li<?php is_active('nmap'); ?>><a href="<?php echo NMAP; ?>"><i class="icon-tasks icon-white"></i> NMAP</a></li>
 				<li<?php is_active('port_status'); ?>><a href="<?php echo PORT_STATUS; ?>"><i class="icon-certificate icon-white"></i> Port Status</a></li>
+                                <li<?php is_active('camera'); ?>><a href="<?php echo CAMERA; ?>"><i class="icon-camera icon-white"></i>Camera</a></li>
 				<li<?php is_active('torrent'); ?>><a href="<?php echo TORRENT; ?>"><i class="icon-arrow-down icon-white"></i>Torrent</a></li>
-				<li<?php is_active('camera'); ?>><a href="<?php echo CAMERA; ?>"><i class="icon-camera icon-white"></i>Camera</a></li>
 			  </ul>
 			  <ul class="nav pull-right">
 				<li><a href="<?php echo LOGOUT; ?>"><i class="icon-off icon-white"></i> Logout</a></li>
