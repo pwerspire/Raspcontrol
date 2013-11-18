@@ -102,12 +102,12 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 
     </div> <!-- /content -->
 
-    <footer>
+    <!--<footer>
       <div class="container">
         <p>Powered by <a href="https://github.com/josejamilena/Raspcontrol">Raspcontrol</a>.</p>
         <p>Sources are available on <a href="https://github.com/josejamilena/Raspcontrol">Github</a>.</p>
       </div>
-    </footer>
+    </footer>-->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
