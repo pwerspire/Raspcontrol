@@ -6,6 +6,8 @@ body {
   /*background: #303130;*/
   background-image:url('../img/back.png');
   background-repeat:no-repeat;
+  opacity:0.2;
+  filter:alpha(opacity=20); /* For IE8 and earlier */
 }
 #content {
   /*background: #fff;*/
