@@ -10,8 +10,6 @@ body {
 #content {
   background: #fff;
   padding: 40px 20px;
-  opacity:0.2;
-  filter:alpha(opacity=20); /* For IE8 and earlier */
 }
 .container, .navbar .container {
   /* max-width: 650px; */
