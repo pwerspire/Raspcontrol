@@ -8,7 +8,7 @@ body {
   background-repeat:no-repeat;
 }
 #content {
-  background: #fff;
+  /*background: #fff;*/
   padding: 40px 20px;
 }
 .container, .navbar .container {
