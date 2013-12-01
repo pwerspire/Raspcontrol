@@ -4,6 +4,7 @@
 
 body {
   /*background: #303130;*/
+  background-image:url('../img/back.png');
 }
 #content {
   background: #fff;
