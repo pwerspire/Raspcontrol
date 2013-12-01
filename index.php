@@ -48,13 +48,13 @@ $page = file_exists($page) ? $page : 'pages'. DIRECTORY_SEPARATOR .'404.php';
 
   <body>
 
-    <header>
+    <!--<header>
       <div class="container">
         <a href="<?php echo INDEX; ?>"><img src="img/raspcontrol.png" alt="rbpi" /></a>
         <h1><a href="<?php echo INDEX; ?>">&nbsp;<?php echo strtoupper(gethostname()); ?></a></h1>
         <h2>&nbsp;&nbsp;&nbsp;<?php echo php_uname(); ?></h2>
       </div>
-    </header>
+    </header>-->
 
     <?php if ($display) : ?>
 
