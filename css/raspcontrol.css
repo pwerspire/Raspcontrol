@@ -3,12 +3,12 @@
  */
 
 body {
-  /*background: #303130;*/
+  background: #FFFBCD;
   /*background-image:url('../img/back.png');
   background-repeat:no-repeat;*/
 }
 #content {
-  /*background: #fff;*/
+  background: #fffbcd;
   padding: 40px 20px;
 }
 .container, .navbar .container {
